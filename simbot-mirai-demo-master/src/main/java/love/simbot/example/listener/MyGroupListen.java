@@ -100,7 +100,7 @@ public class MyGroupListen {
         boolean owner = new Get().memberInfo(getter, groupMsg).isOwner();
         String groupCode = new Get().groupId(groupMsg);
         String accountId = new Get().accountId(groupMsg);
-        if (accountId.equals(getMaster()) || owner) {
+        if (accountId.equals(getMaster()) && owner) {
             setter.setGroupAdmin(groupCode, String.valueOf(groupBanId), true);
         } else {
             sender.sendGroupMsg(groupCode, "您没有权限");
@@ -114,7 +114,7 @@ public class MyGroupListen {
         String accountId = get.accountId(groupMsg);
         String groupId = get.groupId(groupMsg);
         boolean owner = new Get().memberInfo(getter, groupMsg).isOwner();
-        if (accountId.equals(getMaster()) || owner) {
+        if (accountId.equals(getMaster()) && owner) {
             setter.setGroupAdmin(groupId, String.valueOf(groupBanId), false);
         } else {
             sender.sendGroupMsg(groupId, "您没有权限");
