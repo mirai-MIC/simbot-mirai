@@ -6,8 +6,8 @@ QQ: 620428906
 欢迎各位大佬来玩
 
 ## 需要做的
-### 参考文档
-如果存在问题，仍然需要参考 [文档](https://www.yuque.com/simpler-robot/simpler-robot-doc) 或者反馈问题。
+### 开发文档
+https://www.yuque.com/simpler-robot/simpler-robot-doc/wyt74o
 
 ### fork/clone
 fork或者clone此项目到你的本地，并使用IDE工具打开并构建它。
