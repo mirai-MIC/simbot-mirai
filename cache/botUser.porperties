@@ -1,5 +1,6 @@
 # Master账号
-user= 3092179918
+user= 12345566
 # 搜图接口ApiKey 注册即得
 # 接口地址: www.saucenao.com
-apiKey= a1f121f2b7699254810beed07489164309fb1485
+# 不需要加双引号
+apiKey= xxxxxxxxxx
