@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: cn.hutool:hutool-crypto:5.7.19">
+    <CLASSES>
+      <root url="jar://D:/apache-maven-3.8.6-bin/maven-repository/cn/hutool/hutool-crypto/5.7.19/hutool-crypto-5.7.19.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://D:/apache-maven-3.8.6-bin/maven-repository/cn/hutool/hutool-crypto/5.7.19/hutool-crypto-5.7.19-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://D:/apache-maven-3.8.6-bin/maven-repository/cn/hutool/hutool-crypto/5.7.19/hutool-crypto-5.7.19-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

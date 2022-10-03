@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="EntryPointsManager">
+    <list size="11">
+      <item index="0" class="java.lang.String" itemvalue="love.forte.common.ioc.annotation.Beans" />
+      <item index="1" class="java.lang.String" itemvalue="love.forte.common.ioc.annotation.Depend" />
+      <item index="2" class="java.lang.String" itemvalue="love.forte.simbot.annotation.Filter" />
+      <item index="3" class="java.lang.String" itemvalue="love.forte.simbot.annotation.OnFriendAddRequest" />
+      <item index="4" class="java.lang.String" itemvalue="love.forte.simbot.annotation.OnGroup" />
+      <item index="5" class="java.lang.String" itemvalue="love.forte.simbot.annotation.OnGroupAddRequest" />
+      <item index="6" class="java.lang.String" itemvalue="love.forte.simbot.annotation.OnGroupMemberIncrease" />
+      <item index="7" class="java.lang.String" itemvalue="love.forte.simbot.annotation.OnGroupMemberReduce" />
+      <item index="8" class="java.lang.String" itemvalue="love.forte.simbot.annotation.OnPrivate" />
+      <item index="9" class="java.lang.String" itemvalue="love.forte.simbot.timer.Cron" />
+      <item index="10" class="java.lang.String" itemvalue="love.forte.simbot.timer.Fixed" />
+    </list>
+    <writeAnnotations>
+      <writeAnnotation name="love.forte.common.ioc.annotation.Depend" />
+    </writeAnnotations>
+  </component>
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/simbot-mirai-demo-master/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_17" default="true" project-jdk-name="17" project-jdk-type="JavaSDK" />
+  <component name="ProjectType">
+    <option name="id" value="jpab" />
+  </component>
+</project>
