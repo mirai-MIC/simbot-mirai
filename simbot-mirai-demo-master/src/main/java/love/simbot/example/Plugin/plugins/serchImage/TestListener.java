@@ -42,7 +42,7 @@ public class TestListener {
         return apiKey;
     }
 
-    private final String apiKey = new Properties_().getPropertyName("apiKey");
+    private final String apiKey = new Properties_().getPropertyName("apiKey","cache/botUser.porperties");
     @Depend
     private MessageContentBuilderFactory messageBuilderFactory;
 

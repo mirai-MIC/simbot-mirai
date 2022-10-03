@@ -31,7 +31,7 @@ import java.util.Objects;
  */
 @Beans
 public class MyPrivateListen_ {
-    private final String Master = new Properties_().getPropertyName("user");
+    private final String Master = new Properties_().getPropertyName("user","cache/botUser.porperties");
     @Depend
     private MessageContentBuilderFactory messageBuilderFactory;
 

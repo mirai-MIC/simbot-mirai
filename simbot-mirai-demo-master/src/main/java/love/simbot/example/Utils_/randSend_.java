@@ -11,6 +11,7 @@ import java.util.Random;
  * Author:   mirai
  * Date:     2022/9/13 7:51
  * Description:
+ * @author mirai
  */
 @Beans
 public class randSend_ {

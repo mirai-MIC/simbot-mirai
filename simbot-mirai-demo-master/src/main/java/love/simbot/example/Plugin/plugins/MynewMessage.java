@@ -72,7 +72,7 @@ public class MynewMessage {
     public void youth_Study(GroupMsg groupMsg, Sender sender) {
         MessageContentBuilder builder = messageBuilderFactory.getMessageContentBuilder();
         MessageContent msg = builder
-                .image("https://h5.cyol.com/special/daxuexi/dr9ja2jkc6/images/end.jpg")
+                .text(new SendGet().SendGET("http://api.xn--7gqa009h.top/api/dxx",""))
                 .build();
         sender.sendGroupMsg(groupMsg.getGroupInfo().getGroupCode(), msg);
     }
@@ -115,7 +115,7 @@ public class MynewMessage {
                         .at(groupMsg.getAccountInfo().getAccountCode())
                         .text("\n[随机一言]")
                         .text("\n" + new JSONObject(new SendGet().SendGET("https://api.immmms.com/api/yiyan?encode=json&charset=utf-8", "")).optString("text"))
-                        .image("http://ap1.iw233.cn/api.php?sort=xing")
+                        .image("https://dev.iw233.cn/api.php?sort=xing")
                         .build();
                 sender.sendGroupMsg(groupMsg.getGroupInfo().getGroupCode(), msg);
             }

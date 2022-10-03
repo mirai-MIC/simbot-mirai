@@ -15,10 +15,11 @@ import java.util.Properties;
  *
  * @author mirai
  */
+@SuppressWarnings({"all"})
 @Beans
 public class Properties_ {
-    public String getPropertyName(String propertyName) throws IOException {
-        String path = "cache/botUser.porperties";
+    public String getPropertyName(String propertyName,String path) throws IOException {
+//        String path = "cache/botUser.porperties";
         Properties properties = new Properties();
         properties.load(new FileReader(path));
         return properties.getProperty(propertyName);

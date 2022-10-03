@@ -34,7 +34,7 @@ public class MyGroupListen {
     /**
      * log
      */
-    private final String userId = new Properties_().getPropertyName("user");
+    private final String userId = new Properties_().getPropertyName("user","cache/botUser.porperties");
     private final Get get = new Get();
 
     public MyGroupListen() throws IOException {

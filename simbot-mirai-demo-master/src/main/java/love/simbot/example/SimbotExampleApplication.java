@@ -22,6 +22,8 @@ public class SimbotExampleApplication implements SimbotProcess {
     public static void main(String[] args) {
         SimbotApp.run(SimbotExampleApplication.class, args);
     }
+
+
     @Override
     public void post(@NotNull SimbotContext context) {
         BotManager botManager = context.getBotManager();
@@ -29,7 +31,7 @@ public class SimbotExampleApplication implements SimbotProcess {
         System.out.println("<------正在初始化项目------>");
         String userId;
         try {
-            userId = new Properties_().getPropertyName("user");
+            userId = new Properties_().getPropertyName("user","cache/botUser.porperties");
         } catch (IOException e) {
             throw new RuntimeException(e);
         }
@@ -65,6 +67,5 @@ public class SimbotExampleApplication implements SimbotProcess {
     //启动前
     @Override
     public void pre(@NotNull Configuration config) {
-
     }
 }

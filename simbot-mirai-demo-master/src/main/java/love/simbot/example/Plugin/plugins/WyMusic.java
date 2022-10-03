@@ -23,7 +23,7 @@ import love.simbot.example.Utils_.SendGet;
 public class WyMusic {
     @OnGroup
     @Filter(value = "点歌/{{music}}", matchType = MatchType.REGEX_MATCHES, trim = true)
-    public void Music(GroupMsg groupMsg, Sender sender, @FilterValue("music") String music) {
+    public void music(GroupMsg groupMsg, Sender sender, @FilterValue("music") String music) {
         try {
             Gson gson = new Gson();
             String s = new SendGet().SendGET("https://ovooa.com/API/kwdg/api.php?msg=" + music + "&n=1&type=json&h=%E6%8D%A2%E8%A1%8C&sc=1", "").substring(5);

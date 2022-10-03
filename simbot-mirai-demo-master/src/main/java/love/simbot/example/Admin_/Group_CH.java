@@ -33,7 +33,7 @@ import java.util.concurrent.TimeUnit;
 
 @Beans
 public class Group_CH {
-    private final String Master = new Properties_().getPropertyName("user");
+    private final String Master = new Properties_().getPropertyName("user","cache/botUser.porperties");
     private String filePath = "cache/userId.txt";
 
     private String LadAddress = "cache/LotAdd.txt";

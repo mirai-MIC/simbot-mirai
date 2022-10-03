@@ -86,8 +86,7 @@ public class menu_ {
                 "[随机一言]\n" +
                 new JSONObject(new SendGet().SendGET("https://api.immmms.com/api/yiyan?encode=json&charset=utf-8", "").trim()).optString("text");
         MessageContent msg = builder
-//                .image("http://ruohuan.xiaoapi.cn/API/tw/ecy.php?text=" + menu_get)
-                .image("http://ovooa.com/API/image_fill_auto/?Msg=" + menuGet)
+                .text(menuGet)
                 .build();
         sender.sendGroupMsg(groupMsg.getGroupInfo(), msg);
     }
