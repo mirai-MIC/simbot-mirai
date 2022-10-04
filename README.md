@@ -1,8 +1,8 @@
 # simbot-mirai
 # simbot Demo - Mirai
 
-### 群主的群
-QQ: 620428906
+### 这是我的交流群
+QQ群: 620428906
 欢迎各位大佬来玩
 
 ## 需要做的
@@ -15,7 +15,9 @@ fork或者clone此项目到你的本地，并使用IDE工具打开并构建它�
 ### 修改配置文件
 
 打开目录 src/main/resources/simbot.yml
+
         target/classes/simbot.yml
+        
         缺一不可
 根据目录下的文件调整、删改，修改为你的bot的配置信息。
 
