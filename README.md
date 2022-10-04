@@ -40,4 +40,6 @@ simbot:
 
 将链接复制到软件里验证复制token继续粘贴验证
 
+### 功能预览
+![QQ图片20221004094525](https://user-images.githubusercontent.com/108680016/193716859-12b54c90-9a8d-44e7-bef2-18d4b720508c.png)
 
