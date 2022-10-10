@@ -14,7 +14,7 @@ fork或者clone此项目到你的本地，并使用IDE工具打开并构建它�
 
 ### 修改配置文件
 
-打开目录 【src/main/resources/simbot.yml / target/classes/simbot.yml】        两者缺一不可
+打开目录 【src/main/resources/simbot.yml】
 
 根据目录下的文件调整、删改，修改为你的bot的配置信息。
 
